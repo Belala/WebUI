@@ -1,0 +1,98 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Assets/css/css3.css" rel="stylesheet" />
+    <style>
+        .content {
+            min-height: 200px;
+            width: 100%;
+            border: 1px solid #808080;
+        }
+
+        #shakeFont {
+            animation-name: shakeFont;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        #box {
+            width: 960px;
+            height: 480px;
+            position: relative;
+        }
+
+        .bgCut { 
+            width: 120px;
+            height: 120px;
+            position: absolute;
+        }
+
+        
+        .bgCut1 {
+            animation-name: switchBG;
+            animation-duration: 15s;
+            animation-iteration-count: infinite; 
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>颤抖字体</h2>
+        <span id="shakeFont">This is shake font</span>
+    </div>
+    <div class="content">
+        <h2>头部动画</h2>
+        <div id="box">
+
+            <div class="bgCut bgCut1" style="display:block; left:0px;top:0px;     background-position:0px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:0px;top:120px;   background-position:0px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:0px;top:240px;   background-position:0px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:0px;top:360px;   background-position:0px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:120px;top:0px;     background-position:-120px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:120px;top:120px; background-position:-120px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:120px;top:240px; background-position:-120px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:120px;top:360px; background-position:-120px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:240px;top:0px;     background-position:-240px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:240px;top:120px; background-position:-240px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:240px;top:240px; background-position:-240px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:240px;top:360px; background-position:-240px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:360px;top:0px;     background-position:-360px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:360px;top:120px; background-position:-360px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:360px;top:240px; background-position:-360px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:360px;top:360px; background-position:-360px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:480px;top:0px;     background-position:-480px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:480px;top:120px; background-position:-480px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:480px;top:240px; background-position:-480px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:480px;top:360px; background-position:-480px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:600px;top:0px;     background-position:-600px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:600px;top:120px; background-position:-600px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:600px;top:240px; background-position:-600px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:600px;top:360px; background-position:-600px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:720px;top:0px;     background-position:-720px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:720px;top:120px; background-position:-720px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:720px;top:240px; background-position:-720px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:720px;top:360px; background-position:-720px -360px"></div>
+                                                                                  
+            <div class="bgCut bgCut1" style="display:block; left:840px;top:0px  ;   background-position:-840px 0px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:840px;top:120px; background-position:-840px -120px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:840px;top:240px; background-position:-840px -240px"></div>
+            <div class="bgCut bgCut1" style="display:block; left:840px;top:360px; background-position:-840px -360px"></div>
+
+        </div>
+    </div>
+</body>
+</html>
