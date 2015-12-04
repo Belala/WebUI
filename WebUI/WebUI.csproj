@@ -89,6 +89,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\css3.css" />
+    <Content Include="Assets\img\1.jpg" />
+    <Content Include="Assets\img\2.jpg" />
+    <Content Include="Assets\img\3.jpg" />
+    <Content Include="Assets\img\4.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
